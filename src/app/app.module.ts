@@ -28,6 +28,7 @@ import { MatCardModule } from '@angular/material/card';
 
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
 
 /*
 // Componentes do projeto
@@ -56,7 +57,8 @@ import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
