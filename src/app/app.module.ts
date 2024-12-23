@@ -42,6 +42,7 @@ import { ClienteDeleteComponent } from './components/cliente/cliente-delete/clie
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-list.component';
+import { ChamadoCreateComponent } from './components/chamado/chamado-create/chamado-create.component';
 
 /*
 // Componentes do projeto
@@ -65,7 +66,8 @@ import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-
     ClienteDeleteComponent,
     ClienteUpdateComponent,
     ClienteListComponent,
-    ChamadoListComponent
+    ChamadoListComponent,
+    ChamadoCreateComponent
   ],
   imports: [
     BrowserModule,
