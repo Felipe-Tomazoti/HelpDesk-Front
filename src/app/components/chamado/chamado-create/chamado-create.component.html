@@ -8,9 +8,6 @@
             <input
             [(ngModel)]="chamado.titulo"
             name="titulo" 
-            <input
-            [(ngModel)]="chamado.titulo"
-            name="titulo" 
             [formControl]="titulo"
             required
             matInput 
@@ -22,8 +19,6 @@
         <mat-form-field appearance="outline">
             <mat-label>Selecione um status</mat-label>
             <mat-select
-            [(ngModel)]="chamado.status"
-            name="status"
             [(ngModel)]="chamado.status"
             name="status"
             [formControl]="status"
@@ -38,8 +33,6 @@
         <mat-form-field appearance="outline">
             <mat-label>Selecione uma prioridade</mat-label>
             <mat-select
-            [(ngModel)]="chamado.prioridade"
-            name="prioridade"
             [(ngModel)]="chamado.prioridade"
             name="prioridade"
             [formControl]="prioridade"
@@ -58,12 +51,9 @@
             <mat-select
             [(ngModel)]="chamado.tecnico"
             name="tecnico"
-            [(ngModel)]="chamado.tecnico"
-            name="tecnico"
             [formControl]="tecnico"
             required
             >
-                <mat-option *ngFor="let tec of tecnicos" value="{{ tec.id }}">{{ tec.nome }}</mat-option>
                 <mat-option *ngFor="let tec of tecnicos" value="{{ tec.id }}">{{ tec.nome }}</mat-option>
             </mat-select>
         </mat-form-field>
@@ -75,12 +65,9 @@
             <mat-select
             [(ngModel)]="chamado.cliente"
             name="cliente"
-            [(ngModel)]="chamado.cliente"
-            name="cliente"
             [formControl]="cliente"
             required
             >
-            <mat-option *ngFor="let cli of clientes" value="{{ cli.id }}">{{ cli.nome }}</mat-option>
             <mat-option *ngFor="let cli of clientes" value="{{ cli.id }}">{{ cli.nome }}</mat-option>
             </mat-select>
         </mat-form-field>
@@ -88,11 +75,6 @@
 
     <form class="form">
         <mat-form-field class="full-width" appearance="outline">
-            <mat-label>Deixe uma observação</mat-label>
-            <textarea class="descricao"
-            [(ngModel)]="chamado.observacoes"
-            name="observacoes" 
-            [formControl]="observacoes"
             <mat-label>Deixe uma observação</mat-label>
             <textarea class="descricao"
             [(ngModel)]="chamado.observacoes"
