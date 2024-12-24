@@ -1,11 +1,12 @@
 .container {
     height: 100%;
+    display: unset;
 }
 
 .sidenav {
     width: 13rem;
     color: white;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(7,179,244,1) 0%, rgba(5,149,169,1) 100%);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(7, 179, 244, 1) 0%, rgba(5, 149, 169, 1) 100%);
 }
 
 img {
@@ -25,5 +26,5 @@ img {
 .menu {
     margin: 1rem 0 0 1rem;
     color: white;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(7,179,244,1) 0%, rgba(5,149,169,1) 100%);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(7, 179, 244, 1) 0%, rgba(5, 149, 169, 1) 100%);
 }

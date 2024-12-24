@@ -38,8 +38,7 @@ const routes: Routes = [
       {path: 'chamados/update/:id', component: ChamadoUpdateComponent},
       {path: 'chamados/read/:id', component: ChamadoReadComponent}
     ]
-  },
-  
+  }
 ];
 
 @NgModule({
