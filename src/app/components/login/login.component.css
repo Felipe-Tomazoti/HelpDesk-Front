@@ -41,7 +41,7 @@ mat-icon {
     opacity: .6;
 }
 
-@media (min-width: 350px) {
+@media (max-width: 1000px) {
     img {
         height: auto;
         max-height: 200px;

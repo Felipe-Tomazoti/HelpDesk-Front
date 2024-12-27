@@ -8,7 +8,7 @@ img {
     height: 20rem;
 }
 
-@media (min-width: 350px) {
+@media (max-width: 1000px) {
     .card {
         width: 70%;
     }

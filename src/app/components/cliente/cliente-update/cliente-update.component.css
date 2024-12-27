@@ -38,7 +38,7 @@ mat-icon {
     opacity: .8;
 }
 
-@media (min-width: 350px) {
+@media (max-width: 1000px) {
     .container {
         width: 25rem;
         padding: unset;
