@@ -33,4 +33,8 @@ img {
     .sidenav {
         width: unset;
     }
+
+    img {
+        height: 4rem;
+    }
 }
