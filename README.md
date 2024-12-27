@@ -1,27 +1,15 @@
-# Helpdesk
+# HelpDesk - FrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+### Sobre o Projeto
+Este projeto foi desenvolvido como parte do meu aprendizado pessoal e consiste em um sistema para gerenciamento de chamados, simulando um simples **Help Desk**. Ele foi implementado utilizando **Angular 12** no frontend e **Spring Boot 2** no backend. O **MySQL** foi escolhido como banco de dados, e o deploy foi realizado nas seguintes plataformas:
 
-## Development server
+- **Backend:** Deploy na [Railway](https://railway.app/).
+- **Frontend:** Deploy no [GitHub Pages](https://pages.github.com/).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Além disso, foram aplicados conceitos de **Autenticação e Autorização** utilizando Tokens **JWT**.
 
-## Code scaffolding
+Caso queira conferir o backend, acesse: https://github.com/Felipe-Tomazoti/HelpDesk
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Projeto: https://felipe-tomazoti.github.io/HelpDesk-Front/
